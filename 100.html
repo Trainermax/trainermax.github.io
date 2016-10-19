@@ -26,11 +26,9 @@
 	
 
 	<body>
-	    <h1><a href="index.html" >Home</a>
-  		<a href="100.html">100%</a></h1>
-  		<p style="text-align:center;">
-		<a href="#Flowchart" > Flowchart
-		</a>
+	   <h1><a href="index.html" >Home</a>
+  		<a href="100.html">100%</a>
+  		<a href="textstory.html"> TextStory </a></h1>
 		</p>
   		
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Iu8OKXGVjL0" frameborder="0" allowfullscreen></iframe>
@@ -46,11 +44,7 @@
 	
 	<p> For the incremental process of the scratch game we developed which is a copy of Duck Hunt (nearly same sprites but code is done by my partner and I). For starters, after my partner imported in numerous sprites I began to work on movement, an aim for the mouse pointer, and a way for the duck to die once shot at. This was a little bit difficult as I had to look around for getting the mouse pointer to work, realizing that I needed a forever loop for the aim to constantly be assigned to the mouse pointer position. The duck animation for death would be particularly tricky; if you kill it too early the animation continues (script doesn’t stop) which had to be fixed using a stop command to the other parts of the sprite.. The next challenge was getting a round two in with two ducks. Had to duplicate one duck, and inverse the movements, with the problem of getting them both to spawn at the same time which was solved with a broadcast command. Then the game win and game end screen are controlled by a variable called KillCount which if is less than 1 in the first round or less than 3 in the second round it shows a game over screen, and if greater than 2 (3) at the end of round 2, then the background changes to a you win screen. The development was mostly independent as while I worked on getting the program to work(motion, round 2, sprites reacting to other sprites) my partner did the work of getting backgrounds, sprites, and sounds to work in the game, although he did a little bit of the actual game design as well. 
 </p>
-		 <br><br>
-		 <p id="Flowchart"> <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/b0094104-848c-4e08-8dce-0d0317892a5c" id="9mU0m8ync4GI"></iframe></div></p>
-		<br><br><br><br>
-		<script src="//repl.it/embed/Du4F/9.js"></script>
-
+	
 	</body>
 	
 </html>
